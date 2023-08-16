@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="open_manipulator_custom_kinematics" type="fkine_node.py" 
+        name="fkine_node" output="screen" />
+    <node pkg="open_manipulator_custom_kinematics" type="ikine_node.py" 
+    name="ikine_node" output="screen" />
+</launch>
